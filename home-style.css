@@ -1,0 +1,16 @@
+* {
+  background-color: #6aaf6c;
+}
+body {
+  width: 100%;
+  margin:auto;
+  background-color: #f4f4f4;
+}
+
+footer {
+  margin-top:100%;
+}
+.base {
+text-align: center;
+padding-top: 20px;
+}
