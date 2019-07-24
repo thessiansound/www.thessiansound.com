@@ -12,60 +12,85 @@
 </head>
 <body>
   <!-- NAVIGATION SECTION -->
-    <div class="subnav">
+<ul>
+      <li><div class="subnav">
       <button class="subnavbtn"><i class="glyphicon glyphicon-menu-hamburger"></i></button>
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <div class="dropdown">
-              <button class="dropbtn">Services</button>
-          <div class="dropdown-content">
-              <a href ='#'>service 1</a>
-              <a href ='#'>service 2</a>
-              <a href ='#'>service 3</a>
-          </div>     
+      <div class="subnav-content">
+	<ul>
+	 <li><a href="#">Home</a></li>
+       	 <li><a href="#">Products</a></li>
+      	 <li><a href="#">Services</a></li>
+       	 <li><a href="#">About Us</a></li>
+         <li><a href="#">FAQs</a></li>
+         <li><a href="#">Resources</a></li>
+         <li><a href="#">Log In</a></li>
+         <li><a href="#">Sign Up</a></li>
+	</ul>
+        
       </div>
-        <a href="#">About Us</a>
-        <a href="#">FAQs</a>
-        <a href="#">Resources</a>
-        <a href="#">Log In</a>
-        <a href="#">Sign Up</a>
-    </div>
-      <i class="glyphicon glyphicon-home"></i>
-       <a href="#">Products</a>
-       <div class="subnav">
+    </div></li>
+	</ul>
+	<ul>
+	<li><i class="glyphicon glyphicon-home"></i></li>
+        <li><a href="#">Products</a></li>
+        <li><div class="subnav">
          <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
-         <div class="subnav-content">
-           <a href="#">Mixing and Mastering</a>
-           <a href="#">Artwork and Design</a>
+		<ul>
+		 <div class="subnav-content">
+           <li><a href="#">Mixing and Mastering</a></li>
+           <li><a href="#">Artwork and Design</a></li>
          </div>
-       </div>
-       <a href="#">About Us</a>
-       <a href="#">FAQs</a>
-       <div class="subnav">
+		</ul>
+       </div></li>
+       <li><a href="#">About Us</a></li>
+       <li><a href="#">FAQs</a></li>
+       <li><div class="subnav">
          <button class="subnavbtn">Resources <i class="fa fa-caret-down"></i></button>
          <div class="subnav-content">
-           <a href="#">Basic Non-Exclusive Rights</a>
-           <a href="#">Non-Exclusive Rights</a>
-           <a href="#">Exclusive Rights</a>
-           <a href="#">Exclusive Copyrights &copy;</a>
-           <a href="#">Premium Agreement</a>
-           <a href="#">Premium Plus (+) Agreement</a>
-           <a href="#">Client Handbook &copy; 2019</a>
-         </div>
-       </div>
-       <input type="text" placeholder="Search...">
-      <i class="glyphicon glyphicon-search"></i>
-      <i class="glyphicon glyphicon-shopping-cart"></i>
-      <div class="subnav">
-        <button class="subnavbtn"><i class="glyphicon glyphicon-cog"></i> <i class="fa fa-caret-down"></i></button>
-        <a href="#">Username <i class="glyphicon glyphicon-user"></i></a>
-        <a href="#">User Library</a>
-        <a href="#">Order History</a>
-        <a href="#">Settings</a>
-        <a href="#">Log Out <i class="glyphicon glyphicon-off"></i></a>
-      </div>
-       <a href="#">Log In</a>
-       <a href="#">Sign Up</a>
+		<ul>
+	   <li><a href="#">Basic Non-Exclusive Rights</a></li>
+           <li><a href="#">Non-Exclusive Rights</a></li>
+           <li><a href="#">Exclusive Rights</a></li>
+           <li><a href="#">Exclusive Copyrights &copy;</a></li>
+           <li><a href="#">Premium Agreement</a></li>
+           <li><a href="#">Premium Plus (+) Agreement</a></li>
+           <li><a href="#">Client Handbook &copy; 2019</a></li>
+		</ul>
+             </div>
+       </div></li>
+	</ul>
+      
+	<ul>
+	<li><input type="text" placeholder="Search...">
+     	<i class="glyphicon glyphicon-search"></i></li>
+     	<li><a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+      <li><div class="subnav">
+        <button class="subnavbtn"><i class="glyphicon glyphicon-cog"></i> <i 	class="fa fa-caret-down"></i></button>
+		<ul>
+	<li><a href="#">Username <i class="glyphicon glyphicon-user"></i></a></li>
+        <li><a href="#">User Library <i class="glyphicon glyphicon-download-alt"></i></a></li>
+        <li><a href="#">Order History <i class="glyphicon glyphicon-list-alt"></i></a></li>
+	<li><a href="#"><!-- This title is fluid and will be the current selection from the list of different currencies -->Currency<i class="glyphicon glyphicon-usd"></i></a>
+		<ul>
+			<li><i class="fa fa-usd"></i>USD</li>
+			<li><i class="fa fa-usd"></i>JMD</li>
+			<li><i class="fa fa-usd"></i>CAN</li>
+			<li><i class="fa fa-gbp"></i>GBP</li>
+			<li><i class="fa fa-euro"></i>EU</li>
+			<li><i class="fa fa-cny"></i>CNY</li>
+			<li><i class="fa fa-jpy"></i>JPY</li>
+		</ul>
+	</li>
+        <li><a href="#">Settings <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li><a href="#">Log Out <i class="glyphicon glyphicon-off"></i></a></li>
+		</ul>
+        
+      </div></li>
+       <li><a href="#">Log In</a></li>
+       <li><a href="#">Sign Up</a></li>
+
+	</ul>
+      
   <!-- NAVIGATION SECTION END -->
 
   <!-- DOCUMENT BODY START -->
@@ -114,43 +139,43 @@
     <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" height="80px" width="80px"><audio controls>
       <source src="../media/music/mp3s/age-quod-agoat.mp3" type="audio/mpeg">
       <p>Your browser does not support the audio element
-    </audio></li> <i class="glyphicon glyphicon-file"></i> <i class="glyphicon glyphicon-shopping-cart"></i> <i class="glyphicon glyphicon-share-alt"></i>
+    </audio></li> <i class="glyphicon glyphicon-file" title="Lease"></i> <i class="glyphicon glyphicon-shopping-cart" title="Add to Cart"></i> <i class="glyphicon glyphicon-share-alt" title="Share"></i>
     <li><img src="../media/images/instrumental-art/circles.png" alt="no picture found" height="80px" width="80px"><audio controls>
       <source src="../media/music/mp3s/circles.mp3" type="audio/mpeg">
       <p>Your browser does not support the audio element
-    </audio></li> <i class="glyphicon glyphicon-file"></i> <i class="glyphicon glyphicon-shopping-cart"></i> <i class="glyphicon glyphicon-share-alt"></i>
+    </audio></li> <i class="glyphicon glyphicon-file" title="Lease"></i> <i class="glyphicon glyphicon-shopping-cart" title="Add to Cart"></i> <i class="glyphicon glyphicon-share-alt" title="Share"></i>
     <li><img src="../media/images/instrumental-art/_official-danger-zone.jpg" alt="no picture found" height="80px" width="80px"><audio controls>
       <source src="../media/music/mp3s/danger-zone.mp3" type="audio/mpeg">
       <p>Your browser does not support the audio element
-    </audio></li> <i class="glyphicon glyphicon-file"></i> <i class="glyphicon glyphicon-shopping-cart"></i> <i class="glyphicon glyphicon-share-alt"></i>
+    </audio></li><i class="glyphicon glyphicon-file" title="Lease"></i> <i class="glyphicon glyphicon-shopping-cart" title="Add to Cart"></i> <i class="glyphicon glyphicon-share-alt" title="Share"></i>
     <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" height="80px" width="80px"><audio controls>
       <source src="../media/music/mp3s/pacifist.mp3" type="audio/mpeg">
       <p>Your browser does not support the audio element
-    </audio></li> <i class="glyphicon glyphicon-file"></i> <i class="glyphicon glyphicon-shopping-cart"></i> <i class="glyphicon glyphicon-share-alt"></i>
+    </audio></li> <i class="glyphicon glyphicon-file" title="Lease"></i> <i class="glyphicon glyphicon-shopping-cart" title="Add to Cart"></i> <i class="glyphicon glyphicon-share-alt" title="Share"></i>
     <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" height="80px" width="80px"><audio controls>
       <source src="../media/music/mp3s/vices.mp3" type="audio/mpeg">
       <p>Your browser does not support the audio element
-    </audio></li> <i class="glyphicon glyphicon-file"></i> <i class="glyphicon glyphicon-shopping-cart"></i> <i class="glyphicon glyphicon-share-alt"></i>
+    </audio></li><i class="glyphicon glyphicon-file" title="Lease"></i> <i class="glyphicon glyphicon-shopping-cart" title="Add to Cart"></i> <i class="glyphicon glyphicon-share-alt" title="Share"></i>
     <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" height="80px" width="80px"><audio controls>
       <source src="../media/music/mp3s/taciturn.mp3" type="audio/mpeg">
       <p>Your browser does not support the audio element
-    </audio></li> <i class="glyphicon glyphicon-file"></i> <i class="glyphicon glyphicon-shopping-cart"></i> <i class="glyphicon glyphicon-share-alt"></i>
+    </audio></li><i class="glyphicon glyphicon-file" title="Lease"></i> <i class="glyphicon glyphicon-shopping-cart" title="Add to Cart"></i> <i class="glyphicon glyphicon-share-alt" title="Share"></i>
     <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" height="80px" width="80px"><audio controls>
       <source src="../media/music/mp3s/zenith.mp3" type="audio/mpeg">
       <p>Your browser does not support the audio element
-    </audio></li> <i class="glyphicon glyphicon-file"></i> <i class="glyphicon glyphicon-shopping-cart"></i> <i class="glyphicon glyphicon-share-alt"></i>
+    </audio></li><i class="glyphicon glyphicon-file" title="Lease"></i> <i class="glyphicon glyphicon-shopping-cart" title="Add to Cart"></i> <i class="glyphicon glyphicon-share-alt" title="Share"></i>
     <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" height="80px" width="80px"><audio controls>
       <source src="../media/music/mp3s/valhalla.mp3" type="audio/mpeg">
       <p>Your browser does not support the audio element
-    </audio></li> <i class="glyphicon glyphicon-file"></i> <i class="glyphicon glyphicon-shopping-cart"></i> <i class="glyphicon glyphicon-share-alt"></i>
+    </audio></li> <i class="glyphicon glyphicon-file" title="Lease"></i> <i class="glyphicon glyphicon-shopping-cart" title="Add to Cart"></i> <i class="glyphicon glyphicon-share-alt" title="Share"></i>
     <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" height="80px" width="80px"><audio controls>
       <source src="../media/music/mp3s/sound-of-xion.mp3" type="audio/mpeg">
       <p>Your browser does not support the audio element
-    </audio></li> <i class="glyphicon glyphicon-file"></i> <i class="glyphicon glyphicon-shopping-cart"></i> <i class="glyphicon glyphicon-share-alt"></i>
+    </audio></li> <i class="glyphicon glyphicon-file" title="Lease"></i> <i class="glyphicon glyphicon-shopping-cart" title="Add to Cart"></i> <i class="glyphicon glyphicon-share-alt" title="Share"></i>
     <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" height="80px" width="80px"><audio controls>
       <source src="../media/music/mp3s/nanny-marij.mp3" type="audio/mpeg">
       <p>Your browser does not support the audio element
-    </audio></li> <i class="glyphicon glyphicon-file"></i> <i class="glyphicon glyphicon-shopping-cart"></i> <i class="glyphicon glyphicon-share-alt"></i>
+    </audio></li><i class="glyphicon glyphicon-file" title="Lease"></i> <i class="glyphicon glyphicon-shopping-cart" title="Add to Cart"></i> <i class="glyphicon glyphicon-share-alt" title="Share"></i>
   </ol>
   </div>
   <!-- LOWER SECTION -->
