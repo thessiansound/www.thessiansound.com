@@ -1,0 +1,84 @@
+.info-body {
+  font-weight: thin;
+  text-align: left;
+  font-size: 12px;
+  color: #000;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-family: "times new roman";
+}
+
+.info-body p:hover {
+  color: #fff;
+  font-size: 18px;
+}
+
+.read-more {
+  text-align: center;
+  border-color: yellow;
+}
+
+.read-more a {
+  color: "aquamarine";
+  text-decoration: none;
+  font-weight: 900;
+  }
+
+a:hover {
+  color: white;
+  font-size: 20px;
+}
+
+.lease-content h2 {
+  color: #000;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: 100;
+  background-color: rgba(255,255,255,0.8);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mix-master-content h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-family: "times new roman";
+  font-weight: 100;
+}
+
+.mix-content h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-family: "times new roman";
+  font-weight: 100;
+}
+
+.master-content h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-family: "times new roman";
+  font-weight: 100;
+}
+
+.bundles-content h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-family: "times new roman";
+  font-weight: 100;
+}
+
+.ad-content h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-family: "times new roman";
+  font-weight: 100;
+}
+/* PRICE BEAT LEASE */
+
+.price-beat-lease-1 {
+  background-color: rgba(255,0,0,0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 37px;
+
+}
