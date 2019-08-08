@@ -4,14 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Thessian Sound - One Voice. One Sound.</title>
-  <link rel="shortcut icon" href="../media/images/logo/template-white.png">
+  <link rel="shortcut icon" href="../Thessiah/workspace/media/images/logo/_black-logo.png">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../css/home-style.css">
-  <link rel="stylesheet" href="../css/home-boxes.css">
-  <link rel="stylesheet" href="../css/home-slideshow.css">
-	<link rel="stylesheet" href="../css/home-buttons.css">
-  <link rel="stylesheet" href="../css/home-box-content.css">
-</head>
+  <link rel="stylesheet" href="../Thessiah/home-style.css">
+    <link rel="stylesheet" href="home-slideshow.css" type="text/css">
+
+    <link rel="stylesheet" href="../Thessiah/home-boxes.css" type="text/css">
+  <link rel="stylesheet" href="../Thessiah/logo.css" type="text/css">
+	<link rel="stylesheet" href="../Thessiah/home-buttons.css" type="text/css">
+  <link rel="stylesheet" href="../Thessiah/home-box-content.css" type="text/css">
+    <link rel="stylesheet" href="popups.css" type="text/css">
+          </head>
 <body>
 <!-- --------------------------------------------- -->
   <!-- NAVIGATION SECTION -->
@@ -78,13 +81,23 @@
 	<!-- <img src="../media/images/photo/guitar2.jpg" alt="Guitar Back-Ground"> -->
 	<div id="logo-top">
 		<br><br><br>
-		<img src="../media/images/logo/official-logo-white.png" alt="One Voice. One Sound.">
+		<img src="../Thessiah/workspace/media/images/logo/official-logo-white.png" alt="One Voice. One Sound.">
 	 <h3>One Voice. One Sound.</h3>
 	</div>
 </div>
 <!-- --------------------------------------------- -->
   <!-- UPPER SECTION END -->
+<ul class="slideshow" style="z-index: -6000;">
+  <li><span>Image 01</span><div></div></li>
+  <li><span>Image 02</span></li>
+  <li><span>Image 03</span></li>
+  <li><span>Image 04</span></li>
+  <li><span>Image 05</span></li>
+  <li><span>Image 06</span></li>
+</ul>
+  <div class="container-slide">
 
+</div>
 
   <!-- MIDDLE SECTION -->
 
@@ -99,113 +112,173 @@
       </div>
       <ol>
           <li>
-            <img src="../media/images/instrumental-art/thessiah-black.jpg" alt="img2"><audio controls style="width: 350px;height: 39px">
-          <source src="../media/music/mp3s/age-quod-agoat.mp3" type="audio/mpeg">
+            <img src="../Thessiah/workspace/media/images/instrumental-art/thessiah-black.jpg" alt="img2"><audio oncontextmenu="return false;" controls controlsList="nodownload" style="width: 350px;height: 39px">
+          <source src="../Thessiah/workspace/media/music/mp3s/age-quod-agoat.mp3" type="audio/mpeg">
         </audio>
         <div class="vertical">
-          <i class="enlarge fa fa-file-text"></i> <i class="enlarge fa fa-shopping-cart"></i> <i class="enlarge fa fa-heart"></i> <i class="enlarge fa fa-share-alt"></i>
+          <i class="enlarge fa fa-file-text" ></i> <i class="enlarge fa fa-shopping-cart" onclick="window.confirm('Add to cart?');"></i> <i class="enlarge fa fa-heart" onclick="clickCounter();"></i> 
+            <div class='popup' onclick="popupFunc1();"><i class="enlarge fa fa-share-alt"></i>
+                <span class="popuptext" id="myPopup1">
+                    <i class= " fa fa-facebook-official"></i>
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-twitter"></i>
+                </span></div>
         </div>
-          <div class="tune-name">
+              <div class="tune-name"><div id="result"></div>
             Age Quod A.G.O.A.T Instrumental
           </div>
         </li>
 
           <li>
-            <img src="../media/images/instrumental-art/circles.png" alt="img2"><audio controls style="width: 350px;height: 39px">
-        <source src="../media/music/mp3s/circles.mp3" type="audio/mpeg">
+            <img src="../Thessiah/workspace/media/images/instrumental-art/circles.png" alt="img2"><audio oncontextmenu="return false;" controls controlsList="nodownload" style="width: 350px;height: 39px">
+        <source src="../Thessiah/workspace/media/music/mp3s/circles.mp3" type="audio/mpeg">
       </audio>
       <div class="vertical">
-        <i class="enlarge fa fa-file-text"></i> <i class="enlarge fa fa-shopping-cart"></i> <i class="enlarge fa fa-heart"></i> <i class="enlarge fa fa-share-alt"></i>
+          <i class="enlarge fa fa-file-text" ></i> <i class="enlarge fa fa-shopping-cart" onclick="window.confirm('Add to cart?');"></i> <i class="enlarge fa fa-heart" onclick="clickCounter2();"></i> 
+            <div class='popup' onclick="popupFunc2();"><i class="enlarge fa fa-share-alt"></i>
+                <span class="popuptext" id="myPopup2">
+                <i class= " fa fa-facebook-official"></i>
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-twitter"></i>
+                </span></div>
       </div>
-    <div class="tune-name">
+              <div class="tune-name"><div id="result2"></div>
       Circles Instrumental
     </div>
     </li>
 
-          <li><img src="../media/images/instrumental-art/_official-danger-zone.jpg" alt="no picture found" ><audio controls style="width: 350px;height: 39px">
-        <source src="../media/music/mp3s/danger-zone.mp3" type="audio/mpeg">
+          <li><img src="../Thessiah/workspace/media/images/instrumental-art/_official-danger-zone.jpg" alt="no picture found" ><audio oncontextmenu="return false;" controls controlsList="nodownload" style="width: 350px;height: 39px">
+        <source src="../Thessiah/workspace/media/music/mp3s/danger-zone.mp3" type="audio/mpeg">
       </audio>
       <div class="vertical">
-        <i class="enlarge fa fa-file-text"></i> <i class="enlarge fa fa-shopping-cart"></i> <i class="enlarge fa fa-heart"></i> <i class="enlarge fa fa-share-alt"></i>
+          <i class="enlarge fa fa-file-text" ></i> <i class="enlarge fa fa-shopping-cart" onclick="window.confirm('Add to cart?');"></i> <i class="enlarge fa fa-heart" onclick="clickCounter3();"></i> 
+            <div class='popup' onclick="popupFunc3();"><i class="enlarge fa fa-share-alt"></i>
+                <span class="popuptext" id="myPopup3">                    
+                    <i class= " fa fa-facebook-official"></i>
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-twitter"></i>
+                </span></div>
       </div>
-      <div class="tune-name">
+              <div class="tune-name"><div id="result3"></div>
         Danger Zone Riddim Instrumental
       </div>
 
     </li>
 
-          <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio controls style="width: 350px;height: 39px">
-        <source src="../media/music/mp3s/pacifist.mp3" type="audio/mpeg">
+          <li><img src="../Thessiah/workspace/media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio oncontextmenu="return false;" controls controlsList="nodownload" style="width: 350px;height: 39px">
+        <source src="../Thessiah/workspace/media/music/mp3s/pacifist.mp3" type="audio/mpeg">
       </audio>
       <div class="vertical">
-        <i class="enlarge fa fa-file-text"></i> <i class="enlarge fa fa-shopping-cart"></i> <i class="enlarge fa fa-heart"></i> <i class="enlarge fa fa-share-alt"></i>
+          <i class="enlarge fa fa-file-text" ></i> <i class="enlarge fa fa-shopping-cart" onclick="window.confirm('Add to cart?');"></i> <i class="enlarge fa fa-heart" onclick="clickCounter4();"></i> 
+            <div class='popup' onclick="popupFunc4();"><i class="enlarge fa fa-share-alt"></i>
+                <span class="popuptext" id="myPopup4">
+                <i class= " fa fa-facebook-official"></i>
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-twitter"></i>
+                </span></div>
       </div>
-      <div class="tune-name">
+              <div class="tune-name"><div id="result4"></div>
         Pacifist Instrumental
       </div>
     </li>
 
-          <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio controls style="width: 350px;height: 39px">
-        <source src="../media/music/mp3s/vices.mp3" type="audio/mpeg">
+          <li><img src="../Thessiah/workspace/media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio oncontextmenu="return false;" controls controlsList="nodownload" style="width: 350px;height: 39px">
+        <source src="../Thessiah/workspace/media/music/mp3s/vices.mp3" type="audio/mpeg">
       </audio>
       <div class="vertical">
-        <i class="enlarge fa fa-file-text"></i> <i class="enlarge fa fa-shopping-cart"></i> <i class="enlarge fa fa-heart"></i> <i class="enlarge fa fa-share-alt"></i>
+          <i class="enlarge fa fa-file-text" ></i> <i class="enlarge fa fa-shopping-cart" onclick="window.confirm('Add to cart?');"></i> <i class="enlarge fa fa-heart" onclick="clickCounter5();"></i> 
+            <div class='popup' onclick="popupFunc5();"><i class="enlarge fa fa-share-alt"></i>
+                <span class="popuptext" id="myPopup5">
+                    <i class= " fa fa-facebook-official"></i>
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-twitter"></i>
+                </span></div>
       </div>
-      <div class="tune-name">
+              <div class="tune-name"><div id="result5"></div>
         Vices Instrumental
       </div>
     </li>
 
-          <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio controls style="width: 350px;height: 39px">
-        <source src="../media/music/mp3s/taciturn.mp3" type="audio/mpeg">
+          <li><img src="../Thessiah/workspace/media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio oncontextmenu="return false;" controls controlsList="nodownload" style="width: 350px;height: 39px">
+        <source src="../Thessiah/workspace/media/music/mp3s/taciturn.mp3" type="audio/mpeg">
       </audio> <div class="vertical">
-        <i class="enlarge fa fa-file-text"></i> <i class="enlarge fa fa-shopping-cart"></i> <i class="enlarge fa fa-heart"></i> <i class="enlarge fa fa-share-alt"></i>
+          <i class="enlarge fa fa-file-text" ></i> <i class="enlarge fa fa-shopping-cart" onclick="window.confirm('Add to cart?');"></i> <i class="enlarge fa fa-heart" onclick="clickCounter6();"></i> 
+            <div class='popup' onclick="popupFunc6();"><i class="enlarge fa fa-share-alt"></i>
+                <span class="popuptext" id="myPopup6">
+                    <i class= " fa fa-facebook-official"></i>
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-twitter"></i>
+                </span></div>
       </div>
-      <div class="tune-name">
+              <div class="tune-name"><div id="result6"></div>
         Taciturn Instrumental
       </div>
     </li>
 
-          <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio controls style="width: 350px;height: 39px">
-        <source src="../media/music/mp3s/zenith.mp3" type="audio/mpeg">
+          <li><img src="../Thessiah/workspace/media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio oncontextmenu="return false;" controls controlsList="nodownload" style="width: 350px;height: 39px">
+        <source src="../Thessiah/workspace/media/music/mp3s/zenith.mp3" type="audio/mpeg">
       </audio>
       <div class="vertical">
-        <i class="enlarge fa fa-file-text"></i> <i class="enlarge fa fa-shopping-cart"></i> <i class="enlarge fa fa-heart"></i> <i class="enlarge fa fa-share-alt"></i>
+          <i class="enlarge fa fa-file-text" ></i> <i class="enlarge fa fa-shopping-cart" onclick="window.confirm('Add to cart?');"></i> <i class="enlarge fa fa-heart" onclick="clickCounter7();"></i> 
+            <div class='popup' onclick="popupFunc7();"><i class="enlarge fa fa-share-alt"></i>
+                <span class="popuptext" id="myPopup7">
+                    <i class= " fa fa-facebook-official"></i>
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-twitter"></i>
+                </span></div>
       </div>
-      <div class="tune-name">
+              <div class="tune-name"><div id="result7"></div>
         Zenith Instrumental
       </div>
     </li>
 
-        <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio controls style="width: 350px;height: 39px">
-        <source src="../media/music/mp3s/valhalla.mp3" type="audio/mpeg">
+        <li><img src="../Thessiah/workspace/media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio oncontextmenu="return false;" controls controlsList="nodownload" style="width: 350px;height: 39px">
+        <source src="../Thessiah/workspace/media/music/mp3s/valhalla.mp3" type="audio/mpeg">
       </audio>
       <div class="vertical">
-        <i class="enlarge fa fa-file-text"></i> <i class="enlarge fa fa-shopping-cart"></i> <i class="enlarge fa fa-heart"></i> <i class="enlarge fa fa-share-alt"></i>
+          <i class="enlarge fa fa-file-text" ></i> <i class="enlarge fa fa-shopping-cart" onclick="window.confirm('Add to cart?');"></i> <i class="enlarge fa fa-heart" onclick="clickCounter8();"></i> 
+            <div class='popup' onclick="popupFunc8();"><i class="enlarge fa fa-share-alt"></i>
+                <span class="popuptext" id="myPopup8">
+                    <i class= " fa fa-facebook-official"></i>
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-twitter"></i>
+                </span></div>
       </div>
-      <div class="tune-name">
+            <div class="tune-name"><div id="result8"></div>
         Valhalla Instrumental
       </div>
     </li>
 
-        <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio controls style="width: 350px;height: 39px">
-        <source src="../media/music/mp3s/sound-of-xion.mp3" type="audio/mpeg">
+        <li><img src="../Thessiah/workspace/media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio oncontextmenu="return false;" controls controlsList="nodownload" style="width: 350px;height: 39px">
+        <source src="../Thessiah/workspace/media/music/mp3s/sound-of-xion.mp3" type="audio/mpeg">
       </audio>
       <div class="vertical">
-        <i class="enlarge fa fa-file-text"></i> <i class="enlarge fa fa-shopping-cart"></i> <i class="enlarge fa fa-heart"></i> <i class="enlarge fa fa-share-alt"></i>
+          <i class="enlarge fa fa-file-text" ></i> <i class="enlarge fa fa-shopping-cart" onclick="window.confirm('Add to cart?');"></i> <i class="enlarge fa fa-heart" onclick="clickCounter9();"></i> 
+            <div class='popup' onclick="popupFunc9();"><i class="enlarge fa fa-share-alt"></i>
+                <span class="popuptext" id="myPopup9">
+                    <i class= " fa fa-facebook-official"></i>
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-twitter"></i>
+                </span></div>
       </div>
-      <div class="tune-name">
+            <div class="tune-name"><div id="result9"></div>
         Sounds of Xion Instrumental
       </div>
     </li>
 
-        <li><img src="../media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio controls style="width: 350px;height: 39px">
-        <source src="../media/music/mp3s/nanny-marij.mp3" type="audio/mpeg">
+        <li><img src="../Thessiah/workspace/media/images/instrumental-art/thessiah-black.jpg" alt="no picture found" ><audio oncontextmenu="return false;" controls controlsList="nodownload" style="width: 350px;height: 39px">
+        <source src="../Thessiah/workspace/media/music/mp3s/nanny-marij.mp3" type="audio/mpeg">
       </audio>
       <div class="vertical">
-        <i class="enlarge fa fa-file-text"></i> <i class="enlarge fa fa-shopping-cart"></i> <i class="enlarge fa fa-heart"></i> <i class="enlarge fa fa-share-alt"></i>
+          <i class="enlarge fa fa-file-text" ></i> <i class="enlarge fa fa-shopping-cart" onclick="window.confirm('Add to cart?');"></i> <i class="enlarge fa fa-heart" onclick="clickCounter1();"></i> 
+            <div class='popup' onclick="popupFunc10();"><i class="enlarge fa fa-share-alt"></i>
+                <span class="popuptext" id="myPopup10" style="text-align: center">
+                    <i class= " fa fa-facebook-official"></i>
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-twitter"></i>
+                </span></div>
       </div>
-      <div class="tune-name">
+            <div class="tune-name" ><div id="result1"></div>
         Nanny-Marij Instrumental
       </div>
     </li>
@@ -229,8 +302,6 @@
         <!-- MODAL -->
 
         <!-- trigger to open modal -->
-        <button id="basic-btn">Open Modal</button>
-
         <!-- the modal -->
         <div id="basic-modal" class="modal">
 
@@ -719,7 +790,7 @@
       <div class="employee-info">
         <div class="employee-box">
           <div class="bio-head">
-          <img class="image_id" src="../media/images/photo/face-torso-portrait.jpg" alt="image id for employee" height="400.4px" width="302.3px">
+          <img style="z-index: 6000;" class="image_id" src="../Thessiah/workspace/media/images/photo/face-torso-portrait.jpg" alt="image id for employee" height="400.4px" width="302.3px" >
           <div class="banner">
 
           </div>
@@ -769,7 +840,7 @@
           <h3 class="col-h3 thess-follow">Follow Us</h3>
           <div class="social-space">
             <div class="follow-us">
-            <a href="https://facebook.com/thessiansound/" target="_blank" ><i class="social facebook fa fa-facebook"></i></a>
+            <a href="https://facebook.com/thessiansound/" target="_blank" onclick="Share.facebook('URL','TITLE','IMG_PATH','DESC')"><i class="social facebook fa fa-facebook"></i></a>
             <a href="https://instagram.com/thessiansound" target="_blank" ><i class="social instagram fa fa-instagram"></i></a>
             <a href="https://twitter.com/thessiansound/" target="_blank" ><i class="social twitter fa fa-twitter"></i></a>
             <a href="https://youtube.com/channel/UCBa5tYtIOda9FTa2CuvCGyg?view_as=subscriber" target="_blank" ><i class="social youtube fa fa-youtube"></i></a>
@@ -792,12 +863,11 @@
       <p class="bottom-nfo">&copy; Copyright 2019 Thessian Sound. One Voice. One Sound. All Rights Reserved. Thessian Sound is a privately-owned company that provides an array of intangible products and services. Thessian Sound does not provide tangible products or software that will require shipping or postal addresses. The use of Thessian Sound is subject to our <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a> </p>
     </div>
 </div>
-</div>
   </footer>
   <!-- FOOTER SECTION END -->
 <!-- DOCUMENT BODY END -->
-<script type="text/javascript" src="../javascript/home-modal.js">
+<script type="text/javascript" src="../Thessiah/home.js">
 </script>
 </body>
 </html>
-                      
+
