@@ -1,0 +1,24 @@
+
+/* Logo on top - this does not move... Images slide behind the logo */
+
+#logo-top {
+	margin: 0 auto;
+	z-index: 999;
+}
+
+#logo-top img {
+	display: block;
+	width: 328.4px;
+	height: 377.5px;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: contain;
+}
+
+#logo-top h3 {
+	font-size: 1.3em;
+	font-family: georgia;
+	color: #fff;
+	text-align: center;
+	margin-top: 10;
+}
